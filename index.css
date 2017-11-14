@@ -632,6 +632,10 @@ nav div ul li:hover {
 .link-box img{
   width: 100%;
 }
+
+.tech-used {
+  font-size: 10px;
+}
 }
 
 @media (max-width: 540px) {
