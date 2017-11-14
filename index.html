@@ -10,17 +10,18 @@
 <body>
         <nav class="navbar navbar-default navbar-fixed-top">
 
-    <div class="container">
-            <a href="https://github.com/aaronleebrooks">
-            <div class="name">
+      <div class="container">
+        <a href="https://github.com/aaronleebrooks">
+          <div class="name">
             <p>Aaron Brooks<img src="http://www.freeiconspng.com/uploads/search-icon-png-4.png"><p>
-            </div>
-            </a>
-            <ul class="links">
-                <li><a target="_blank" href="https://github.com/aaronleebrooks"><img src="./assets/github.png"></a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/aaronleebrooks"><img src="./assets/linkedin.png"></a></li>
-            </ul>
-        </div>
+          </div>
+        </a>
+          <ul class="links">
+            <li><a target="_blank" href="https://github.com/aaronleebrooks"><img src="./assets/github.png"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/aaronleebrooks"><img src="./assets/linkedin.png"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/aaronleebrooks"><img src="./assets/linkedin.png"></a></li>
+          </ul>
+      </div>
     </nav>
     <main role="main">
         <header class="banner" role="banner">
@@ -31,10 +32,9 @@
               <li><a class="jumper" href="#about-me"><button class="link-button">About Me</button></a></li>
               <li><a class="jumper" href="#dev"><button style="border-left: 0" class="link-button">Dev Skills</button></a></li>
               <li><a class="jumper" href="#portfolio"><button style="border-left: 0" class="link-button">Portfolio</button></a></li>
-              <li><a class="jumper" href="#resume"><button style="border-left: 0" class="link-button">Resume</button></a></li>
             </ul>
         </header>
-        <div class="holder left">
+        <div class="holder" id="left-holder">
           <section id="about-me">
             <div class="about-me">
               <div class="section-header">
@@ -96,7 +96,7 @@
             </section>
         </div>
 
-        <div class="holder right">
+        <div class="holder" id="right-holder">
           <section id="bio-post">
               <div class="basic-post" style="margin-top: 0;">
                 <img class="mini-prof-photo" src="./assets/prof-pic.png">
@@ -216,5 +216,7 @@
             </section>
         </div>
     </main>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script> 
 </body>
 </html>
