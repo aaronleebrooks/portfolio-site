@@ -182,6 +182,8 @@ nav div ul li:hover {
   padding: 5px;
   display: block;
   width: 50%;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #dedede;
 }
 
 .post-header p{
@@ -213,7 +215,7 @@ nav div ul li:hover {
 
 #right-holder {
   position: relative;
-  top: -774px;
+  top: -664px;
   width: 323px;
   float: right;
 }
@@ -403,7 +405,7 @@ nav div ul li:hover {
 
 .like-card img {
   display: inline-block;
-  width: 90px;
+  width: 55px;
   margin-left: 3px;
   margin-top: 3px;
 }
