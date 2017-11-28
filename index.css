@@ -544,6 +544,11 @@ nav div ul li:hover {
   filter: brightness(70%);
 }
 
+.post-header {
+  display: block;
+  margin: 10px auto;
+}
+
 #prof-photo {
   position: static;
   width: 168px;
@@ -657,6 +662,15 @@ nav div ul li:hover {
   font-size: 11px;
   padding-right: 4px;
 }
+
+  .dev-photo {
+    width: 27%;
+  }
+
+  .photo-holder {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 540px) {
@@ -676,5 +690,37 @@ nav div ul li:hover {
 
   .navbar .links {
     padding-left: 15rpx;
+  }
+}
+
+@media (max-width: 420px) {
+  button.link-button {
+    padding: 0 19px;
+  }
+}
+
+@media (max-width: 405px) {
+  .dev-photo {
+    width: 40%;
+  }
+}
+
+@media (max-width: 356px) {
+  .dev-photo {
+    width: 50%;
+  }
+}
+
+@media (max-width: 355px) {
+  .about-me ul {
+    font-size: 9px;
+  }
+
+  .about-me {
+    height: 100%;
+  }
+
+  .contact-me {
+    height: 100%;
   }
 }
