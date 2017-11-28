@@ -691,6 +691,7 @@ nav div ul li:hover {
   .navbar .links {
     padding-left: 15rpx;
   }
+
 }
 
 @media (max-width: 420px) {
@@ -724,3 +725,4 @@ nav div ul li:hover {
     height: 100%;
   }
 }
+} 
