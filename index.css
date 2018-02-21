@@ -210,6 +210,10 @@ nav div ul li:hover {
   border-bottom: 1px solid #dedede;
 }
 
+.intro-link {
+  color: #474C8F;
+}
+
 .holder {
   display: inline-block;
 }
